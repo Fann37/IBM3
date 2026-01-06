@@ -1,0 +1,36 @@
+.sidebar {
+  background: linear-gradient(180deg, #0f172a, #1e293b);
+  color: #e5e7eb;
+  padding: 24px;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 14px;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  color: #cbd5f5;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.sidebar a:hover {
+  background: rgba(255,255,255,0.08);
+  color: white;
+  transform: translateX(4px);
+}
